@@ -56,7 +56,19 @@
     }
 
 
-//MOSTRAR 
+//CALCULADORA
+
+
+    class Calculadora{
+        protected $numero1;
+        protected $numero2;
+
+        public function __construct($n1, $n2){
+            $this->numero1 = $n1;
+            $this->numero2 = $n2;
+        }
+
+    }
 
     
 
